@@ -1,7 +1,7 @@
 import React from 'react';
 import './Heading.css';
 import mainImg from './../../assets/mainBackk.jpg';
-import { websiteName } from '../../constants/Website/BasicInfo';
+// import { websiteName } from '../../constants/Website/BasicInfo';
 
 
 const Heading = () => {
@@ -20,7 +20,7 @@ const Heading = () => {
                 >
                     <div className="header-mask">
                         <div className="header-content">
-                            <h1 className="heading-title" style={{ color: '#ffdf28' }}>{websiteName}</h1>
+                            <h1 className="heading-title" style={{ color: '#ffdf28' }}>DRE.$</h1>
                             <h4 className="subheading">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt dolore iure dignissimos</h4>
                             <a className="btn btn-light" href="#!" role="button">Call to action</a>
                         </div>
